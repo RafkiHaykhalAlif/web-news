@@ -17,7 +17,7 @@ export default function LoginForm() {
   return (
     <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
       <h1 className="text-2xl font-bold text-center mb-6">
-        Login Website News
+        <span itemProp="headline">Login Website News</span>
       </h1>
 
       <div className="space-y-4">
@@ -30,6 +30,8 @@ export default function LoginForm() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 488 512"
             className="h-5 w-5"
+            aria-label="Google Logo"
+            role="img"
           >
             <path
               fill="currentColor"
@@ -48,6 +50,8 @@ export default function LoginForm() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
             className="h-5 w-5"
+            aria-label="GitHub Logo"
+            role="img"
           >
             <path
               fill="currentColor"
@@ -66,6 +70,8 @@ export default function LoginForm() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512"
             className="h-5 w-5"
+            aria-label="Facebook Logo"
+            role="img"
           >
             <path
               fill="currentColor"

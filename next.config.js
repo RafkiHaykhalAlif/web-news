@@ -13,6 +13,13 @@ const nextConfig = {
     ],
     unoptimized: false, // Gunakan optimasi gambar Next.js
   },
+  experimental: {
+    instrumentationHook: true,
+  },
 };
 
-module.exports = nextConfig;
+module.exports = {
+  experimental: {
+    instrumentationHook: true,
+  },
+};
